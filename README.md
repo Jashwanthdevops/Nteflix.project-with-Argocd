@@ -8,6 +8,46 @@ The Netflix application source code is stored in GitHub and deployed automatical
 
 ---
 
+## Screenshots
+
+### Argo CD Application Dashboard
+
+Displays the Argo CD dashboard with the application status and synchronization details.
+
+![Argo CD Dashboard](screenshots/argocd-dashboard.png)
+
+---
+
+### Application Health & Sync Status
+
+Shows the application in a **Healthy** and **Synced** state, confirming successful deployment through Argo CD.
+
+![Application Health](screenshots/application-health.png)
+
+---
+
+### Resource Topology View
+
+Visual representation of the Kubernetes resources managed by Argo CD, including Services, Deployments, ReplicaSets, and Pods.
+
+![Resource Topology](screenshots/resource-topology.png)
+
+---
+
+### Kubernetes Resources
+
+Verification of Kubernetes resources created during deployment.
+
+![Kubectl Output](screenshots/kubectl-output.png)
+
+---
+
+### Netflix Application UI
+
+The Netflix application successfully deployed and accessible through the Kubernetes NodePort service.
+
+![Netflix Application](screenshots/netflix-ui.png)
+
 ## Architecture
 
 ```text
@@ -184,40 +224,6 @@ netflix-app   NodePort   80:30007/TCP
 * Kubernetes deployment managed through Argo CD.
 * Self-healing and drift correction enabled.
 * End-to-end Continuous Deployment achieved.
-
----
-
-## Screenshots
-
-![Argo CD Dashboard](screenshots/argocd-dashboard.png)
-
-![Application Health](screenshots/application-health.png)
-
-![Resource Topology](screenshots/resource-topology.png)
-
-![Kubectl Output](screenshots/kubectl-output.png)
-
-![Netflix Application](screenshots/netflix-ui.png)
-
-### Argo CD Application Dashboard
-
-![Argo CD Dashboard](screenshots/argocd-dashboard.png)
-
-### Argo CD Application Status
-
-Insert: screenshots/application-health.png
-
-### Resource Topology View
-
-Insert: screenshots/resource-topology.png
-
-### Kubernetes Resources
-
-Insert: screenshots/kubectl-output.png
-
-### Netflix Application UI
-
-Insert: screenshots/netflix-ui.png
 
 ---
 
