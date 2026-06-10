@@ -48,6 +48,12 @@ The Netflix application successfully deployed and accessible through the Kuberne
 
 ![Netflix Application](screenshots/netflix-ui.png)
 
+### Netflix Application UI-1
+
+The Netflix application successfully deployed and accessible through the Kubernetes NodePort service.
+
+![Netflix Application](screenshots/netflix-ui1.png)
+
 ## Architecture
 
 ```text
