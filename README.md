@@ -1,5 +1,5 @@
 # Netflix Application Deployment using Argo CD and MicroK8s
-
+https://github.com/Jashwanthdevops/Nteflix.project-with-Argocd/blob/main/Screenshot%20(71).png
 ## Project Overview
 
 This project demonstrates a complete GitOps-based Continuous Deployment pipeline using Argo CD and MicroK8s Kubernetes.
